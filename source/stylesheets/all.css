@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body {
+  padding-top: 50px;
+}
+
+h1, a { 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.up-header {
+  margin-top: -50px;
+}
