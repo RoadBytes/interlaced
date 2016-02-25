@@ -1,26 +1,21 @@
 @charset "utf-8";
 
 html { 
-background: url('../images/home.jpeg') no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
 }
 
 
 body {
-  background-attachment: fixed;
-  background-color:      transparent;
-  background-position:   center;
-  background-repeat:     no-repeat;
-  padding-top:           50px;
+  background: url('../images/home.jpeg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size:    cover;
+  -o-background-size:      cover;
+  background-size:         cover;
+  padding-top:             50px;
 }
 
-h1, a { 
-  -webkit-text-stroke-color: black;
+a {
+  color: grey;
 }
-
 .up-header {
   margin-top: -50px;
 }
@@ -36,4 +31,9 @@ footer {
 .copyright {
   line-height: 0;
   border:      100px;
+}
+
+.content {
+ background-color: rgba(0, 0, 0, 0.5);
+ margin-top:      50px;
 }
